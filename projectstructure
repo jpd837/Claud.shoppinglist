@@ -1,16 +1,9 @@
+# Create a new Next.js project
+npx create-next-app@latest shopping-list --typescript --tailwind --eslint
 
-shopping-list/
-├── package.json
-├── next.config.js
-├── pages/
-│   ├── _app.js
-│   ├── api/
-│   └── index.js
-├── components/
-│   └── ShoppingList.js
-├── lib/
-│   └── data.js
-├── styles/
-│   └── globals.css
-├── public/
-└── README.md
+# Move into the project directory
+cd shopping-list
+
+# Install required dependencies
+npm install @/components/ui
+npm install lucide-react
